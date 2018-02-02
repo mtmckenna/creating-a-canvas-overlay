@@ -1,0 +1,47 @@
+html, body {
+  box-sizing: border-box;
+  background-color: #fff;
+  max-width: 500px;
+  margin: auto;
+  padding: 5px;
+  top: 0;
+  bottom: 0;
+  min-height: 100%;
+  font-family: "Trebuchet MS", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Tahoma, sans-serif;
+  color: #000;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  position: relative;
+  height: 100%;
+}
+
+a:link {
+    color: #000;
+}
+
+a:visited {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #0ff;
+}
+
+#canvas {
+  z-index: 2;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+#basketball {
+  display: none;
+}
